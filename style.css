@@ -1,0 +1,25 @@
+ A.menue:bb:hover{font-family:"Arial";font-size:12pt;color:red;font-weight:bold;text-decoration:none}
+ A.menue{font-family:"Arial";font-size:12pt;color:navy;font-weight:bold;text-decoration:none}
+ H1{font-family:"Arial";font-size:18pt;color:black; font-style:italic; text-align:center}
+ H2{font-family:"Arial";font-size:12pt;color:black;font-style:bold;text-align:center}
+ H3{font-family:"Arial";font-size:10pt;color:white;font-style:bold;background-color:darkblue}
+ H4{font-family:"Arial";font-size:10pt;color:black;font-style:bold;text-align:left}
+ H5{font-family:"Arial";font-size:15pt;color:black;font-style:italic;text-align:left}
+ P{font-family:"Arial";font-size:10pt;color:black;text-align:left}
+ p.kopf{font-family:"Arial";font-size:20pt;color:black;font-style:italic;font-weight:bold}
+ p.fett20{font-family:"Arial";font-size:20pt;color:black;font-weight:bold}
+ p.fett12{font-family:"Arial";font-size:12pt;color:black;font-weight:bold}
+ p.fett10{font-family:"Arial";font-size:10pt;color:black;font-weight:bold}
+ p.small{font-family:"Arial";font-size:8pt;color:black}
+ p.normal{font-family:"Arial";font-size:10pt;color:black;text-align:left}
+ p.liste{font-family:"Comic Sans MS,Arial";font-size:10pt;color:black;text-align:left}
+ ul{font-family:"Arial";font-size:10pt;color:black;text-align:left}
+ ol{font-family:"Arial";font-size:10pt;color:black;text-align:left}
+ th{font-family:"Arial";font-size:10pt;color:black;font-style:bold;text-decoration:underline;text-align:left}
+ th.liste {font-family:"Comic Sans MS,Arial";font-size:12pt;color:black;font-style:bold;text-decoration:none;text-align:left}
+ td{font-family:"Arial";font-size:10pt;color:black}
+ td.liste {font-family:"Comic Sans MS,Arial";font-size:10pt;color:black}
+table {font-family:"Arial";font-size:12pt;color:black;text-align:left}
+table.liste {font-family:"Comic Sans MS,Arial";font-size:12pt;color:black;text-align:left}
+BODY {background-color:white;font-family:"Arial";font-size:10pt;color=black;text-align=left}
+FRAMESET {background-color:white;font-family:"Arial";font-size:10pt;color=black;text-align=left}

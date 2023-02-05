@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 //EN">
+<HTML>
+<HEAD>
+<TITLE>Kontakte</TITLE>
+<script language="JavaScript">
+<!--
+  function CheckForm()
+  {
+    if (document.Formular.Text.value=="")
+    {
+     alert("Bitte Text eingeben!");
+     document.Formular.Text.focus();
+     return false;
+    }
+
+    if (document.Formular.Name.value=="")
+    {
+     alert("Bitte Namen eingeben!");
+     document.Formular.Name.focus();
+     return false;
+    }
+    if (document.Formular.Email.value=="")
+    {
+     alert("Bitte E-Mail-Adresse angeben!");
+     document.Formular.Email.focus();
+     return false;
+    }
+
+    if ((document.Formular.Email.value.indexOf('@') == -1) ||
+        (document.Formular.Email.value.indexOf('.') == -1) ||
+        (document.Formular.Email.value.length<4))
+    {
+     alert("Keine gültige E-Mail-Adresse!");
+     document.Formular.Email.focus();
+     return false;
+    }
+
+    if (document.Formular.Zugang.checked==true)
+    {
+      if (document.Formular.User.value=="")
+      {
+        alert("Bitte gewünschten Benutzernamen angeben!");
+        document.Formular.User.focus();
+        return false;
+      }
+    }
+  }
+  //-->
+</script>
+
+<META NAME="author" CONTENT="Katja Hoffmann">
+<LINK REL="stylesheet" HREF="style.css" TYPE="text/css">
+</HEAD>
+<BODY>
+<H4>Kontakt</H4>
+<P class=normal>
+<FORM name="Formular" ACTION="http://send.formmailer.com/" METHOD="POST" TARGET="" onSubmit="return CheckForm()">
+<input type="Hidden" name="formmailer" value="30852">
+<TABLE >
+<TR>
+ <TD ALIGN=LEFT>Betreff </TD>
+ <TD colspan=3><INPUT TYPE="Text" NAME="Betreff" VALUE="" SIZE="60" MAXLENGTH="50"> </TD>
+</TR>
+<TR>
+ <TD VALIGN=TOP>Text </TD>
+ <TD colspan=3><TEXTAREA NAME="Text" COLS="45" ROWS="15"></TEXTAREA> </TD>
+</TR>
+<TR>
+ <TD>Name</TD>
+ <TD><INPUT TYPE="Text" NAME="Name" VALUE="" SIZE="" MAXLENGTH=""> </TD>
+ <TD>E-Mail</TD>
+ <TD><INPUT TYPE="Text" NAME="Email" VALUE="" SIZE="" MAXLENGTH=""> </TD>
+</TR>
+<TR>
+  <TD></TD>
+  <TD><input type="checkbox" name="Zugang" value="x">Zugangserteilung<br>
+<!--  <TD>Gewünschter<BR> Benutzername</TD>-->
+<!--  <TD><INPUT TYPE="Text" NAME="User" VALUE="" SIZE="" MAXLENGTH=""> </TD>-->
+</TD>
+</TR>
+<TR>
+ <TD></TD>
+ <TD><INPUT TYPE=SUBMIT VALUE="Absenden"></TD>
+ <TD colspan=2><INPUT TYPE=RESET VALUE="Formular zur&uuml;cksetzen"> </TD>
+</TR>
+</TABLE>
+</FORM>
+<br>
+<BR>
+<TABLE>
+<TR>
+ <TD WIDTH=150>Diese Homepage wurde <BR> erstellt von:<BR><BR><BR></TD>
+ <TD WIDTH=150>Katja Hoffmann<BR>Westerwaldstr. 3<BR>35745 Herborn<BR> <A HREF="mailto:k.ho@gmx.de">mailto:k.ho@gmx.de</A><br>
+ <a href="http://www.katjah.de">www.katjah.de</a> </TD>
+<!-- <TD WIDTH=80>Kontakt:<BR><BR><BR><BR></TD>-->
+</TR>
+</TABLE>
+</P>
+</BODY>
+</HTML>
